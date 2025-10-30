@@ -1,0 +1,6 @@
+@Redington.Calculation.API_HostAddress = http://localhost:5135
+
+GET {{Redington.Calculation.API_HostAddress}}/api/calculator/
+Accept: application/json
+
+###

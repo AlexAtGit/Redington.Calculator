@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington.Calculator.API", "Redington.Calculator.API\Redington.Calculator.API.csproj", "{99CFFD8F-5F81-7BF6-EB93-5609062370B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington.Calculator.API.Tests", "Redington.Calculator.API.Tests\Redington.Calculator.API.Tests.csproj", "{F2079DF4-5929-F0CB-5730-3B45D7B66ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington.Calculator.Domain", "Redington.Calculator.Domain\Redington.Calculator.Domain.csproj", "{3A918AE5-B594-45A5-97BA-5C1E2645F954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington.Calculator.Infrastructure", "Redington.Calculator.Infrastructure\Redington.Calculator.Infrastructure.csproj", "{99E2C6BE-7EB3-C5EF-4378-9A7AA00F5DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redington.Calculator.Infrastructure.Tests", "Redington.Calculator.Infrastructure.Tests\Redington.Calculator.Infrastructure.Tests.csproj", "{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99CFFD8F-5F81-7BF6-EB93-5609062370B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CFFD8F-5F81-7BF6-EB93-5609062370B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CFFD8F-5F81-7BF6-EB93-5609062370B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CFFD8F-5F81-7BF6-EB93-5609062370B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2079DF4-5929-F0CB-5730-3B45D7B66ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2079DF4-5929-F0CB-5730-3B45D7B66ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2079DF4-5929-F0CB-5730-3B45D7B66ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2079DF4-5929-F0CB-5730-3B45D7B66ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A918AE5-B594-45A5-97BA-5C1E2645F954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A918AE5-B594-45A5-97BA-5C1E2645F954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A918AE5-B594-45A5-97BA-5C1E2645F954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A918AE5-B594-45A5-97BA-5C1E2645F954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E2C6BE-7EB3-C5EF-4378-9A7AA00F5DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E2C6BE-7EB3-C5EF-4378-9A7AA00F5DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E2C6BE-7EB3-C5EF-4378-9A7AA00F5DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E2C6BE-7EB3-C5EF-4378-9A7AA00F5DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2079DF4-5929-F0CB-5730-3B45D7B66ACA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{33C68B01-D4F0-9805-33F0-4F23AF1B1FEB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D416AA16-89EF-408D-A469-66F4AD6EBC4E}
+	EndGlobalSection
+EndGlobal
